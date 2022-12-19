@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  max-width: 1600px;
 }
 
 :root {
@@ -179,4 +180,40 @@ body {
 
 ul {
   list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.page-header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-header-menu {
+  display: flex;
+  gap: 46px;
+  margin-left: 93px;
+  padding-left: 0;
+}
+
+/* .page-header-menu li:not(:last-child) {
+  margin-right: 46px;
+} */
+
+.page-header-contact-links {
+  display: flex;
+  gap: 50px;
+  margin-left: 371px;
+  padding-left: 0;
+  margin-right: 0;
 }
