@@ -85,6 +85,7 @@ body {
 .order-box {
   background-color: var(--background-graphite-color);
   text-align: center;
+  height: 600px;
 }
 
 .solutions {
@@ -92,6 +93,9 @@ body {
   color: var(--white-color);
   letter-spacing: 0.06pc;
   line-height: 1.36;
+  margin: 0;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .order-box button {
@@ -102,6 +106,7 @@ body {
   font-size: 16 px;
   font-weight: 700;
   color: var(--white-color);
+  margin-bottom: 200px;
 }
 
 .description {
@@ -109,6 +114,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03pc;
   line-height: 1.7;
+  text-align: left;
 }
 
 .description-title {
@@ -123,6 +129,8 @@ body {
   color: var(--black-color);
   text-align: center;
   letter-spacing: 0.03pc;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 
 .name {
@@ -216,4 +224,35 @@ ul {
   margin-left: 371px;
   padding-left: 0;
   margin-right: 0;
+}
+
+.descriptions-net {
+  display: flex;
+  gap: 30px;
+  padding-top: 94px;
+  padding-left: 0;
+  margin: 0px;
+}
+
+.what-are-we-do-net {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+}
+
+.team-bcg {
+  background-color: var(--background-light-grey-color);
+}
+
+figure {
+  margin: 0;
+}
+.our-team {
+  display: flex;
+  padding-left: 0px;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
 }
